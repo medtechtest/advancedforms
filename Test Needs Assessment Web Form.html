@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Needs Assessment Form</title>
+</head>
+<body>
+    <h2>Patient Needs Assessment Form</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+
+        <label for="visitReason">Reason for Visit:</label><br>
+        <textarea id="visitReason" name="visitReason"></textarea><br><br>
+
+        <label for="needsMet">Did we meet your needs today?</label><br>
+        <input type="radio" id="needsMetYes" name="needsMet" value="yes">
+        <label for="needsMetYes">Yes</label><br>
+        <input type="radio" id="needsMetNo" name="needsMet" value="no">
+        <label for="needsMetNo">No</label><br><br>
+
+        <label for="understandMedication">Do you understand your medication?</label><br>
+        <input type="radio" id="understandMedicationYes" name="understandMedication" value="yes">
+        <label for="understandMedicationYes">Yes</label><br>
+        <input type="radio" id="understandMedicationNo" name="understandMedication" value="no">
+        <label for="understandMedicationNo">No</label><br><br>
+
+        <label for="additionalComments">Additional Comments:</label><br>
+        <textarea id="additionalComments" name="additionalComments"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
